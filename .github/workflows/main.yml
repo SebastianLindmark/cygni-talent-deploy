@@ -37,6 +37,9 @@ jobs:
       
       - name: Check the thingi
         run: npm run lint
+        
+      - name: check pretty
+        run: npm prettier
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
