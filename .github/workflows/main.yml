@@ -38,7 +38,7 @@ jobs:
         run: npm run lint
         
       - name: check pretty
-        run: npm prettier
+        run: npm run prettier
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
